@@ -1,0 +1,74 @@
+#include<stdio.h>
+int main()
+{
+  int A,B;
+
+  while(1){
+    scanf("%2d%2d",&A,&B);
+    if(A==1){
+      if(B>31){
+        printf("illegal\n");}
+      else
+        break;}
+    if(A==2){
+      if(B>28){
+        printf("illegal\n");}
+      else
+        break;}
+    if(A==3){
+      if(B>31){
+        printf("illegal\n");}
+      else
+        break;}
+    if(A==4){
+      if(B>30){
+        printf("illegal\n");}
+      else
+        break;}
+    if(A==5){
+      if(B>31){
+        printf("illegal\n");}
+      else
+        break;}
+    if(A==6){
+      if(B>30){
+        printf("illegal\n");}
+      else
+        break;}
+    if(A==7){
+      if(B>31){
+        printf("illegal\n");}
+      else
+        break;}
+    if(A==8){
+      if(B>31){
+        printf("illegal\n");}
+      else
+        break;}
+    if(A==9){
+      if(B>30){
+        printf("illegal\n");}
+      else
+        break;}
+    if(A==10){
+      if(B>31||B==0){
+        printf("illegal\n");}
+      else
+        break;}
+    if(A==11){
+      if(B>30){
+        printf("illegal\n");}
+      else
+        break;}
+    if(A==12){
+      if(B>31){
+        printf("illegal\n");}
+      else
+        break;}
+    if(A>12){
+      printf("illegal\n");}}
+
+    printf("confirm");
+
+  return 0;
+}
